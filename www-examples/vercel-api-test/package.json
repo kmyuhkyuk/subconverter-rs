@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --experimental-next-config-strip-types",
+    "build": "next build --experimental-next-config-strip-types",
     "start": "next start",
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,26 +15,26 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@types/react": "19.1.1",
+    "@types/node": "^25.6.0",
+    "@types/react": "19.2.14",
     "@vercel/kv": "^3.0.0",
-    "@vercel/node": "^5.1.14",
-    "next-rspack": "^15.3.0",
-    "typescript": "^5.8.3"
+    "@vercel/node": "^5.7.6",
+    "next-rspack": "^16.2.3",
+    "typescript": "^6.0.2"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@monaco-editor/react": "^4.7.0",
-    "@mui/icons-material": "^7.0.2",
-    "@mui/lab": "7.0.0-beta.11",
-    "@mui/material": "^7.0.2",
-    "next": "^15.3.0",
-    "react": "^19.1.0",
+    "@mui/icons-material": "^9.0.0",
+    "@mui/lab": "9.0.0-beta.2",
+    "@mui/material": "^9.0.0",
+    "next": "^16.2.3",
+    "react": "^19.2.5",
     "react-arborist": "^3.4.3",
-    "react-complex-tree": "^2.6.0",
-    "react-dom": "^19.1.0",
+    "react-complex-tree": "^2.6.1",
+    "react-dom": "^19.2.5",
     "react-split": "^2.0.14",
-    "subconverter-wasm": "^0.1.0"
+    "subconverter-wasm": "^0.2.34"
   }
 }
